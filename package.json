@@ -1,0 +1,12 @@
+{
+  "name": "storacha-website",
+  "version": "0.0.0",
+  "description": "Marketing website for Storatcha",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "cp -R src dist",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Alan Shaw",
+  "license": "Apache-2.0 OR MIT"
+}
