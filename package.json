@@ -4,9 +4,14 @@
   "description": "Marketing website for Storatcha",
   "main": "src/index.html",
   "scripts": {
-    "build": "cp -R src dist",
+    "start": "npm run build && static-server dist",
+    "build": "npm run clean && cp -R src dist",
+    "clean": "rm -rf dist",
     "test": "echo \"Error: no test specified\""
   },
   "author": "Alan Shaw",
-  "license": "Apache-2.0 OR MIT"
+  "license": "Apache-2.0 OR MIT",
+  "devDependencies": {
+    "static-server": "^2.2.1"
+  }
 }
